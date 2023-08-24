@@ -82,3 +82,12 @@ class Cursor {
     // 需要重新获取列表时，使用 CURSOR.refresh()
 })();
 
+// Use import
+import Valine from 'valine';
+// or Use require
+const Valine = require('valine');
+
+new Valine({
+    el:'#vcomments',
+    // other config
+})
