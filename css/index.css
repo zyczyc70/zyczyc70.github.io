@@ -1437,7 +1437,7 @@ input::placeholder {
   z-index: -999;
   width: 100%;
   height: 100%;
-  background: url(https://webstatic.mihoyo.com/upload/static-resource/2021/11/08/55ccd259cca4f64ae81f2d113a153bae_8366165624319984079.png);
+  background: url(/assets/bizhi.jpg);
   background-attachment: local;
   background-position: center;
   background-size: cover;
