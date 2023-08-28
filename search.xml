@@ -4,9 +4,84 @@
   
     
     <entry>
+      <title>markdown语法详解</title>
+      <link href="/2023/08/28/2023-8-28-markdown%E8%AF%AD%E6%B3%95%E8%AF%A6%E8%A7%A3/"/>
+      <url>/2023/08/28/2023-8-28-markdown%E8%AF%AD%E6%B3%95%E8%AF%A6%E8%A7%A3/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> markdown </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> markdown </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>数学建模</title>
+      <link href="/2023/08/28/2023-8-28-%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/"/>
+      <url>/2023/08/28/2023-8-28-%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学建模 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数学建模 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>hexo 操作指南</title>
+      <link href="/2023/08/23/2023-8-23-%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+      <url>/2023/08/23/2023-8-23-%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+      
+        <content type="html"><![CDATA[<p>title    【必需】文章标题<br>date    【必需】文章创建日期<br>updated    【可选】文章更新日期<br>tags    【可选】文章标籤<br>categories    【可选】文章分类<br>keywords    【可选】文章关键字<br>description    【可选】文章描述<br>top_img    【可选】文章顶部图片<br>cover    【可选】文章缩略图(如果没有设置top_img,文章页顶部将显示缩略图，可设为false/图片地址/留空)<br>comments    【可选】显示文章评论模块(默认 true)<br>toc    【可选】显示文章TOC(默认为设置中toc的enable配置)<br>toc_number    【可选】显示toc_number(默认为设置中toc的number配置)<br>toc_style_simple    【可选】显示 toc 简洁模式<br>copyright    【可选】显示文章版权模块(默认为设置中post_copyright的enable配置)<br>copyright_author    【可选】文章版权模块的文章作者<br>copyright_author_href    【可选】文章版权模块的文章作者链接<br>copyright_url    【可选】文章版权模块的文章连结链接<br>copyright_info    【可选】文章版权模块的版权声明文字<br>mathjax    【可选】显示mathjax(当设置mathjax的per_page: false时，才需要配置，默认 false)<br>katex    【可选】显示katex(当设置katex的per_page: false时，才需要配置，默认 false)<br>aplayer    【可选】在需要的页面加载aplayer的js和css,请参考文章下面的音乐 配置<br>highlight_shrink    【可选】配置代码框是否展开(true/false)(默认为设置中highlight_shrink的配置)<br>aside    【可选】显示侧边栏 (默认 true)</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo文章 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>前端八股文</title>
-      <link href="/2023/08/23/2022-10-29-%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-      <url>/2023/08/23/2022-10-29-%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+      <link href="/2023/08/23/2023-8-23-%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+      <url>/2023/08/23/2023-8-23-%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/</url>
       
         <content type="html"><![CDATA[<h2 id="一、HTTP-HTTPS-的区别"><a href="#一、HTTP-HTTPS-的区别" class="headerlink" title="一、HTTP HTTPS 的区别"></a>一、HTTP HTTPS 的区别</h2><h3 id="1-HTTP-HTTPS简述"><a href="#1-HTTP-HTTPS简述" class="headerlink" title="(1)HTTP HTTPS简述"></a>(1)HTTP HTTPS简述</h3><p>HTTP  全称(Hyper Text Transfer Protocol)，就是超文本传输协议，用来在 Internet 上传送超文本。是互联网上应用最为广泛的一种网络协议，是一个客户端和服务器端请求和应答的标准(TCP)，用于从 WWW 服务器传输超文本到本地浏览器的传输协议，它可以使浏览器更加高效，使网络传输减少。</p><p>HTTPS 安全超文本传输协议。简单讲是 HTTP 的安全版，即 HTTP 下加入 SSL 层，HTTPS 的安全基础是 SSL，因此加密的详细内容就需要 SSL。</p><p>HTTPS 的主要作用可以分为两种：一种是建立一个<a href="https://so.csdn.net/so/search?q=信息安全&amp;spm=1001.2101.3001.7020">信息安全</a>通道，来保证数据传输的安全；另一种就是确认网站的真实性。</p><p>超文本传输协议 HTTP 被用于 Web 浏览器和网站服务器之间传递信息，HTTP 以明文方式发送内容，不提供任何方式的数据加密，如果攻击者截取了 Web 浏览器和网站服务器之间的传输报文，就可以直接读懂其中的信息。因此，HTTP 不适合传输敏感信息，比如：资金账户、密码等。为了解决 HTTP 的这一缺陷，需要使用另一种协议：安全套接字层超文本传输协议 HTTPS，为了数据传输的安全，HTTPS 在 HTTP 的基础上加入了 SSL 协议，SSL 依靠证书来验证服务器的身份，并为浏览器和服务器之间的通信加密。</p><h3 id="2-HTTP-HTTPS-的区别"><a href="#2-HTTP-HTTPS-的区别" class="headerlink" title="(2)HTTP HTTPS 的区别"></a>(2)HTTP HTTPS 的区别</h3><p>HTTP 传输的数据都是未加密的，也就是明文的，因此使用 HTTP 传输信息非常不安全。为了保证数据能加密传输，网景公司设计了 SSL(Secure Sockets Layer) 协议用于对 HTTP 传输的数据进行加密，从而就诞生了 HTTPS。二者主要区别如下：</p><ol><li><p><strong>安全性：</strong> HTTP传输数据时不加密，使数据容易被拦截和窃取。而HTTPS通过使用SSL（Secure Sockets Layer）或TLS（Transport Layer Security）协议来加密数据传输，从而更安全地保护数据隐私。</p></li><li><p><strong>加密：</strong> HTTPS使用公钥和私钥的加密方法，确保数据在传输过程中保持机密性。这使得中间人攻击变得困难，因为窃听者无法轻易解密和读取数据。</p></li><li><p><strong>认证：</strong> HTTPS还提供了身份认证的功能。通过SSL证书，网站可以证明其身份，确保用户连接到正确的服务器，而不是被欺骗到恶意站点。HTTPS 需要到 ca 申请证书，一般免费证书较少，因而需要一定费用。</p></li><li><p><strong>端口：</strong> HTTP默认使用端口80进行通信，而HTTPS默认使用端口443。</p></li></ol><p>总而言之，HTTPS相对于HTTP更安全，适用于传输敏感信息，如密码、支付信息等。因此，现代网站通常都采用HTTPS来确保用户数据的保密性和安全性。</p><h2 id="二、盒子模型，什么是怪异盒子模型，如果盒子内部元素设置了margin属性，怎么让盒子不出现滚动条"><a href="#二、盒子模型，什么是怪异盒子模型，如果盒子内部元素设置了margin属性，怎么让盒子不出现滚动条" class="headerlink" title="二、盒子模型，什么是怪异盒子模型，如果盒子内部元素设置了margin属性，怎么让盒子不出现滚动条"></a>二、盒子模型，什么是怪异盒子模型，如果盒子内部元素设置了margin属性，怎么让盒子不出现滚动条</h2><p>盒子模型是用于描述网页上元素布局和定位的概念。每个HTML元素都被看作一个矩形的盒子，包括内容、内边距、边框和外边距。这些部分共同构成了元素的尺寸和位置。</p><p>怪异盒子模型（Quirks Box Model）是指在一些老旧的浏览器中，元素的盒子模型计算方式与标准的CSS盒子模型有所不同，导致在布局时出现一些不一致的情况。</p><p>如果盒子内部的元素设置了<code>margin</code>属性，可能会导致盒子的宽度或高度增加，从而出现滚动条。要避免这种情况，可以考虑以下方法：</p><ol><li><p><strong>使用<code>box-sizing</code>属性：</strong> 将盒子的<code>box-sizing</code>属性设置为<code>border-box</code>，这样设置内外边距不会改变盒子的总尺寸，有助于避免滚动条出现。</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.your-box</span> &#123;</span><br><span class="line">  <span class="attribute">box-sizing</span>: border-box;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li><li><p><strong>使用padding代替margin：</strong> 如果可能的话，尝试使用<code>padding</code>代替<code>margin</code>来增加元素之间的间距。<code>padding</code>不会影响盒子的尺寸，有助于避免出现滚动条。</p></li><li><p><strong>使用overflow属性：</strong> 可以设置盒子的<code>overflow</code>属性为<code>hidden</code>，这样任何溢出的内容都会被隐藏，而不会显示滚动条。</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.your-box</span> &#123;</span><br><span class="line">  <span class="attribute">overflow</span>: hidden;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li></ol><p>通过以上方法，你可以有效地避免因为设置了<code>margin</code>属性而导致盒子出现滚动条的情况。</p><h2 id="三、data为什么是函数而不是对象"><a href="#三、data为什么是函数而不是对象" class="headerlink" title="三、data为什么是函数而不是对象"></a>三、data为什么是函数而不是对象</h2><p>在JavaScript中，<code>data</code> 通常是一个变量名，它可以引用任何类型的值，包括对象、函数、数组等等。你可能会看到 <code>data</code> 被赋值为函数的情况，这是因为在某些上下文中，函数可以用作数据的一种形式，具有很多有用的特性。</p><ol><li><p><strong>函数是一等公民：</strong> 在JavaScript中，函数被称为一等公民（First-Class Functions），这意味着它们可以像其他数据类型一样被传递给变量、函数参数和返回值。因此，将函数赋值给 <code>data</code> 变量就是在将函数作为数据存储起来。</p></li><li><p><strong>高阶函数：</strong> 函数可以接受其他函数作为参数或返回函数，这种用法称为高阶函数。将函数存储在 <code>data</code> 变量中可以使其成为高阶函数的一部分。</p></li><li><p><strong>闭包：</strong> 函数可以形成闭包，即函数内部可以访问外部作用域中的变量。这种特性使得函数可以存储并携带特定的上下文信息。</p></li><li><p><strong>代码复用和模块化：</strong> 将函数赋值给 <code>data</code> 变量可能是为了将某些可重用的代码逻辑保存下来，以便在需要的时候调用。</p></li></ol><p>总之，将函数赋值给 <code>data</code> 变量是因为函数在JavaScript中具有多种灵活且强大的用途，它们可以被视为一种特殊的数据类型，可以用于各种编程范式，例如面向对象编程、函数式编程等。</p><h2 id="四、flex布局介绍"><a href="#四、flex布局介绍" class="headerlink" title="四、flex布局介绍"></a>四、flex布局介绍</h2><p>Flex布局（Flexbox）是一种用于在一个容器中进行灵活的布局的CSS技术。它允许你在一维空间（水平或垂直）内排列元素，以实现更好的对齐和分布。通过使用flex容器和flex项目，你可以轻松地创建自适应且可伸缩的布局。</p><p>要创建一个Flex布局，首先需要将一个元素声明为flex容器，通过设置其<code>display</code>属性为<code>flex</code>或<code>inline-flex</code>。然后，内部的子元素就成为了flex项目，你可以使用一系列的属性来控制它们的布局，包括：</p><ol><li><code>flex-direction</code>：决定项目的主轴方向，可以是<code>row</code>（水平）、<code>column</code>（垂直）、<code>row-reverse</code>或<code>column-reverse</code>。</li><li><code>justify-content</code>：定义主轴上项目的对齐方式，比如居中、开始对齐、结束对齐等。</li><li><code>align-items</code>：定义交叉轴上项目的对齐方式，比如居中、顶部对齐、底部对齐等。</li><li><code>align-self</code>：类似于<code>align-items</code>，但用于单个项目，可以覆盖其父容器的<code>align-items</code>设置。</li><li><code>flex-grow</code>、<code>flex-shrink</code>、<code>flex-basis</code>：用于控制项目在剩余空间中的伸缩行为。</li><li><code>align-content</code>：在有多行时，定义行与行之间的对齐方式。</li></ol><p>例如，以下是一个简单的Flex布局示例：</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.container</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: flex;</span><br><span class="line">  <span class="attribute">flex-direction</span>: row;</span><br><span class="line">  <span class="attribute">justify-content</span>: space-between;</span><br><span class="line">  <span class="attribute">align-items</span>: center;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.item</span> &#123;</span><br><span class="line">  <span class="attribute">flex-grow</span>: <span class="number">1</span>;</span><br><span class="line">  <span class="attribute">flex-shrink</span>: <span class="number">1</span>;</span><br><span class="line">  <span class="attribute">flex-basis</span>: <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>这将创建一个具有弹性的容器，其中的项目会在水平方向上平均分布，并且在交叉轴上居中对齐。</p><p>Flex布局是一个强大且灵活的工具，可以用于创建各种各样的布局结构，从简单的导航栏到复杂的网格系统。</p><h2 id="css垂直居中"><a href="#css垂直居中" class="headerlink" title="css垂直居中"></a>css垂直居中</h2><p>要在CSS中实现垂直居中，您可以使用以下方法之一：</p><ol><li>使用Flexbox：</li></ol><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.container</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: flex;</span><br><span class="line">  <span class="attribute">justify-content</span>: center; <span class="comment">/* 水平居中 */</span></span><br><span class="line">  <span class="attribute">align-items</span>: center; <span class="comment">/* 垂直居中 */</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><ol><li>使用Grid布局：</li></ol><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.container</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: grid;</span><br><span class="line">  place-items: center; <span class="comment">/* 居中内容 */</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><ol><li>使用绝对定位：</li></ol><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.container</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="selector-class">.centered-content</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">50%</span>;</span><br><span class="line">  <span class="attribute">left</span>: <span class="number">50%</span>;</span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">translate</span>(-<span class="number">50%</span>, -<span class="number">50%</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="Vue2-和-Vue3-是两个不同版本的Vue-js框架，主要用于构建用户界面。它们有以下一些主要区别："><a href="#Vue2-和-Vue3-是两个不同版本的Vue-js框架，主要用于构建用户界面。它们有以下一些主要区别：" class="headerlink" title="Vue2 和 Vue3 是两个不同版本的Vue.js框架，主要用于构建用户界面。它们有以下一些主要区别："></a>Vue2 和 Vue3 是两个不同版本的Vue.js框架，主要用于构建用户界面。它们有以下一些主要区别：</h2><ol><li><p><strong>性能优化：</strong> Vue3 在内部进行了重写，采用了更高效的虚拟DOM算法，使得性能有了显著提升，特别是在大规模数据更新时。</p></li><li><p><strong>Composition API：</strong> Vue3引入了Composition API，它使得组件逻辑更具可组合性和可维护性。相比于Vue2的Options API，Composition API更能帮助开发者组织和共享逻辑。</p></li><li><p><strong>响应式系统：</strong> Vue3的响应式系统进行了重构，使其更加高效和灵活。这使得开发者能够更好地控制数据的响应式更新。</p></li><li><p><strong>TypeScript支持：</strong> Vue3对TypeScript的支持更加友好，提供了更准确的类型声明，从而帮助开发者在开发过程中减少错误。</p></li><li><p><strong>Teleport：</strong> Vue3引入了Teleport特性，这使得开发者能够更容易地在组件的DOM结构之外渲染内容，有助于处理弹出框、模态框等场景。</p></li><li><p><strong>Fragment和Portals：</strong> Vue3引入了Fragment和Portals，这些特性使得组件的DOM结构更加灵活，能够更好地满足不同的布局需求。</p></li><li><p><strong>全局API修改：</strong> Vue3中一些全局API的命名和用法发生了变化，需要开发者注意适应。</p></li></ol><p>总之，Vue3在性能、开发体验、可维护性等方面都有所改进和提升，但需要注意迁移时可能需要调整一些代码和概念。</p><h2 id="解决跨域问题的方式有以下几种："><a href="#解决跨域问题的方式有以下几种：" class="headerlink" title="解决跨域问题的方式有以下几种："></a>解决跨域问题的方式有以下几种：</h2><ol><li><p><strong>CORS（跨域资源共享）：</strong> 最常见且推荐的解决跨域问题的方式是在服务器端设置CORS头部。通过在服务器响应中添加正确的CORS头部信息，可以允许指定的域名或所有域名的请求访问资源。</p></li><li><p><strong>JSONP（JSON with Padding）：</strong> JSONP是一种通过添加一个<code>&lt;script&gt;</code>标签来实现跨域请求的方法。它通常用于从不同域名的服务器获取JSON数据，但它有一些安全风险需要注意。</p></li><li><p><strong>代理服务器：</strong> 可以设置一个代理服务器，将浏览器的请求发送到该代理服务器，然后由代理服务器再请求目标服务器的资源，最后将资源返回给浏览器。这种方式需要在服务器端设置代理，并且需要确保代理服务器与目标服务器之间没有跨域问题。</p></li><li><p><strong>WebSocket：</strong> 如果你的应用需要实时数据通信，可以考虑使用WebSocket协议，它可以在浏览器和服务器之间建立持久性的双向连接，不会受到同源策略的限制。</p></li><li><p><strong>跨域资源嵌入（Cross-Origin Resource Inclusion，CORS）：</strong> 使用<code>&lt;link&gt;</code>, <code>&lt;img&gt;</code>, <code>&lt;script&gt;</code>等标签时，可以指定<code>crossorigin</code>属性来控制是否允许跨域加载资源。</p></li><li><p><strong>PostMessage API：</strong> 在不同窗口或iframe之间使用<code>window.postMessage()</code> API来进行跨域通信，可以实现一些简单的跨域数据传输。</p></li><li><p><strong>服务器代理：</strong> 通过在自己的服务器上设置一个中间层，实现将跨域请求转发到目标服务器，然后将响应返回给前端。这种方式可以通过服务器端代码来处理跨域问题，而不是依赖于浏览器。</p></li></ol><p>需要根据实际情况选择适合的解决方案，并注意确保安全性和数据完整性。</p>]]></content>
       
@@ -21,31 +96,6 @@
         <tags>
             
             <tag> 前端面试 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>hexo 操作指南</title>
-      <link href="/2023/08/23/2022-10-28-%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-      <url>/2023/08/23/2022-10-28-%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
-      
-        <content type="html"><![CDATA[<div id="aplayer-oSEOhviA" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="4895239160" data-server="netease" data-type="playlist" data-mode="random" data-autoplay="false" data-listmaxheight="340px" data-preload="auto" data-theme="#e3f2f5" data-volume="0.4" mutex="true"></div><p>title    【必需】文章标题<br>date    【必需】文章创建日期<br>updated    【可选】文章更新日期<br>tags    【可选】文章标籤<br>categories    【可选】文章分类<br>keywords    【可选】文章关键字<br>description    【可选】文章描述<br>top_img    【可选】文章顶部图片<br>cover    【可选】文章缩略图(如果没有设置top_img,文章页顶部将显示缩略图，可设为false/图片地址/留空)<br>comments    【可选】显示文章评论模块(默认 true)<br>toc    【可选】显示文章TOC(默认为设置中toc的enable配置)<br>toc_number    【可选】显示toc_number(默认为设置中toc的number配置)<br>toc_style_simple    【可选】显示 toc 简洁模式<br>copyright    【可选】显示文章版权模块(默认为设置中post_copyright的enable配置)<br>copyright_author    【可选】文章版权模块的文章作者<br>copyright_author_href    【可选】文章版权模块的文章作者链接<br>copyright_url    【可选】文章版权模块的文章连结链接<br>copyright_info    【可选】文章版权模块的版权声明文字<br>mathjax    【可选】显示mathjax(当设置mathjax的per_page: false时，才需要配置，默认 false)<br>katex    【可选】显示katex(当设置katex的per_page: false时，才需要配置，默认 false)<br>aplayer    【可选】在需要的页面加载aplayer的js和css,请参考文章下面的音乐 配置<br>highlight_shrink    【可选】配置代码框是否展开(true/false)(默认为设置中highlight_shrink的配置)<br>aside    【可选】显示侧边栏 (默认 true)</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> hexo </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> hexo文章 </tag>
             
         </tags>
       
