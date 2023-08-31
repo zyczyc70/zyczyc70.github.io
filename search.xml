@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>java</title>
+      <link href="/2023/08/31/2023-8-31-java/"/>
+      <url>/2023/08/31/2023-8-31-java/</url>
+      
+        <content type="html"><![CDATA[<p>以下部分内容来自<a href="https://www.runoob.com/java/java-tutorial.html">菜鸟教程</a></p><h1 id="Java-基础语法"><a href="#Java-基础语法" class="headerlink" title="Java 基础语法"></a>Java 基础语法</h1><p>一个 Java 程序可以认为是一系列对象的集合，而这些对象通过调用彼此的方法来协同工作。下面简要介绍下类、对象、方法和实例变量的概念。</p><ul><li><strong>对象</strong>：对象是类的一个实例，有状态和行为。例如，一条狗是一个对象，它的状态有：颜色、名字、品种；行为有：摇尾巴、叫、吃等。</li><li><strong>类</strong>：类是一个模板，它描述一类对象的行为和状态。</li><li><strong>方法</strong>：方法就是行为，一个类可以有很多方法。逻辑运算、数据修改以及所有动作都是在方法中完成的。</li><li><strong>实例变量</strong>：每个对象都有独特的实例变量，对象的状态由这些实例变量的值决定。<h1 id="第一个Java程序"><a href="#第一个Java程序" class="headerlink" title="第一个Java程序"></a>第一个Java程序</h1>下面看一个简单的 Java 程序，它将输出字符串 Hello World<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">HelloWorld</span> &#123;</span><br><span class="line">    <span class="comment">/* 第一个Java程序</span></span><br><span class="line"><span class="comment">     * 它将输出字符串 Hello World</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello World&quot;</span>); <span class="comment">// 输出 Hello World</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><img src="/assets/java.jpg" alt=""><h1 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h1>编写 Java 程序时，应注意以下几点：</li><li>大小写敏感：Java 是大小写敏感的，这就意味着标识符 Hello 与 hello 是不同的。</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>算法</title>
       <link href="/2023/08/29/2023-8-29-%E7%AE%97%E6%B3%95/"/>
       <url>/2023/08/29/2023-8-29-%E7%AE%97%E6%B3%95/</url>
