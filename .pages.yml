@@ -1,0 +1,55 @@
+media:
+  - name: images
+    label: 图片
+    input: source/img
+    output: /img
+    categories: [image]
+
+content:
+  - name: posts
+    label: 文章
+    type: collection
+    path: source/_posts
+    filename: '{{fields.slug}}.md'
+    view:
+      primary: title
+      fields: [title, date, tags]
+      sort: ['date desc']
+    fields:
+      - name: slug
+        label: 英文文件名
+        type: string
+        required: true
+        pattern:
+          regex: '^[a-z0-9]+(?:-[a-z0-9]+)*$'
+          message: '只能用小写字母、数字和连字符，例如 my-first-post'
+      - name: title
+        label: 标题
+        type: string
+        required: true
+      - name: date
+        label: 发布日期
+        type: date
+        required: true
+        options:
+          format: 'yyyy-MM-dd'
+      - name: tags
+        label: 标签
+        type: select
+        options:
+          multiple: true
+          creatable: true
+      - name: categories
+        label: 分类
+        type: select
+        options:
+          multiple: true
+          creatable: true
+      - name: cover
+        label: 封面
+        type: image
+        options:
+          media: images
+      - name: body
+        label: 正文
+        type: rich-text
